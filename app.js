@@ -22,7 +22,6 @@ function getTimeDifference(start, end) {
         rSeconds: seconds
     }
 }
-
 function stopTimer() {
     timerButtonEl.addEventListener("click", function() {
         clearInterval(timer);
@@ -33,7 +32,6 @@ function stopTimer() {
     })
 }
 stopTimer();
-
 let timer = window.setInterval(function () {
     const startDate = new Date();
     const endDate = new Date("July 31, 2019 00:30:00");
