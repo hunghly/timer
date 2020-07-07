@@ -34,7 +34,7 @@ function stopTimer() {
 stopTimer();
 let timer = window.setInterval(function () {
     const startDate = new Date();
-    const endDate = new Date("July 31, 2019 00:30:00");
+    const endDate = new Date("December 31, 2020 00:00:00");
 
     let timeDifferenceObj = getTimeDifference(startDate, endDate);
 
